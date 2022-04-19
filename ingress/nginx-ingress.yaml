@@ -6,6 +6,7 @@ metadata:
   labels:
     app: guestbook
   annotations: {}
+  # https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/
 spec:
   ingressClassName: nginx
   rules:
